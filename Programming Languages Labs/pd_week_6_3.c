@@ -1,5 +1,5 @@
 
-// 3 basamaklı tü amstrong sayıları
+// 3 basamaklı tüm amstrong sayıları
 #include <stdio.h>
 int main(){
     int  units, ten, hundreds, temp, c = 100;
@@ -39,9 +39,9 @@ int main(){
         units = temp % 10;
     
     if(hundreds*hundreds*hundreds + ten*ten*ten + units*units*units == number){
-        printf("%d amstrog sayısıdır", number);
+        printf("%d amstrong sayısıdır", number);
     }else
-    printf("%d amstrog sayısı değildir", number);
+    printf("%d amstrong sayısı değildir", number);
     // printf("%d , %d ,%d", hundreds, ten, units);
     
 
