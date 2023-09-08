@@ -39,9 +39,9 @@ int main(){
         units = temp % 10;
     
     if(hundreds*hundreds*hundreds + ten*ten*ten + units*units*units == number){
-        printf("%d amstrong sayısıdır", number);
+        printf("%d is amstrong number. ", number);
     }else
-    printf("%d amstrong sayısı değildir", number);
+    printf("%d is not amstrong number. ", number);
     // printf("%d , %d ,%d", hundreds, ten, units);
     
 
