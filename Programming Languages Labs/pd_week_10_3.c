@@ -34,4 +34,4 @@ if ( -100000 < number && number < 100000){
 
     return 0;
 }
-}
+
