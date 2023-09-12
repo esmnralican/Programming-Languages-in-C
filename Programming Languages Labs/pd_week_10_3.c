@@ -20,9 +20,7 @@ if ( -100000 < number && number < 100000){
         digit_number++;
         number /= 10; // access for every digits
     }
-    
-  
-    
+ 
     
     printf("Digits: ");
     for (int i = digit_number - 1; i >= 0; i--) {
