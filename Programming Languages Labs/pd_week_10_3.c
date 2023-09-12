@@ -9,7 +9,6 @@ scanf("%d",&number);
 
 if ( -100000 < number && number < 100000){
 
-if ( -100000 < number < 100000){
     if(number < 0){   
         number = - number;  // if number is negative 
     }  
