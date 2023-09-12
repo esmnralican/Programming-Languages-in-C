@@ -1,4 +1,5 @@
 // Klavyden girilen matrisleri toplayan c kodu
+#include <stdio.h>
 int main() {
     int row, col;
 
